@@ -1,4 +1,4 @@
-.headers{
+.headers-home{
 	background-image: url("/src/Images/background_home.png"); /* The image used */
     height: 300px; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -6,7 +6,7 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 100%;
     padding: 20px 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .img-icon-1{
@@ -33,14 +33,14 @@
     margin-right: auto;
 }
 
-.card{
+.card-home{
     padding-top: 30px;
     padding-bottom: 10px;
     border-radius: 20px;
     height: 150px;
 }
 
-.card:hover{
+.card-home:hover{
     background-color: #D6ECFF;
 }
 

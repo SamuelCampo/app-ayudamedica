@@ -51,7 +51,7 @@ const Inicio = () => {
 			<IonPage>
 				<IonContent fullscreen>
 					<Container>
-					<div className="headers">
+					<div className="headers-home">
                         <IonRow>
                             <IonCol size="6" className="text-left">
 									<img src={icon_logo} className="" alt="" />
@@ -63,19 +63,19 @@ const Inicio = () => {
 						<div className="content-service">
 							<IonRow>
                                 <IonCol size="4">
-                                    <IonCard className="card">
+                                    <IonCard className="card-home">
                                         <img src={icon1} className="img-icon" alt="" />
                                         <p className="text-icon">Atención domiciliaria</p>
                                     </IonCard>
                                 </IonCol>
                                 <IonCol size="4">
-                                    <IonCard className="card">
+                                    <IonCard className="card-home">
                                         <img src={icon2} className="img-icon" alt="" />
                                         <p className="text-icon">Video</p>
                                     </IonCard>
                                 </IonCol>
                                 <IonCol size="4">
-                                    <IonCard className="card">
+                                    <IonCard className="card-home">
                                         <img src={icon3} className="img-icon" alt="" />
                                         <p className="text-icon">Traslado</p>
                                     </IonCard>
@@ -86,6 +86,9 @@ const Inicio = () => {
 					<div className="content">
 						<IonGrid>
 							<IonRow>
+                                <IonCol size="12">
+                                    <h3>Historial de solicitudes</h3>
+                                </IonCol>
 							<IonCol size="12">
                                 <img src={no_result} className="img-result" alt="" />
 							</IonCol>
