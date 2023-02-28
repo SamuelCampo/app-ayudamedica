@@ -89,9 +89,61 @@ const Inicio = () => {
                                 <IonCol size="12">
                                     <h3>Historial de solicitudes</h3>
                                 </IonCol>
-							<IonCol size="12">
-                                <img src={no_result} className="img-result" alt="" />
-							</IonCol>
+                                {/* <IonCol size="12">
+                                    <img src={no_result} className="img-result" alt="" />
+                                </IonCol> */}
+                                <IonCol size="12">
+                                    <IonCard className="content-date"><h2>16 <br /> NOV</h2></IonCard>
+                                    <IonCard className="content-result">
+                                        <IonRow>
+                                            <IonCol size="4"></IonCol>
+                                            <IonCol>
+                                                <h6>Atención Domiciliaria</h6>
+                                                <p className="profession">Profesional: Miguel Molina</p>
+                                                <div className="state"><p>Completado</p></div>
+                                            </IonCol>
+                                        </IonRow>
+                                    </IonCard>
+                                </IonCol>
+                                <IonCol size="12">
+                                    <IonCard className="content-date"><h2>16 <br /> NOV</h2></IonCard>
+                                    <IonCard className="content-result">
+                                        <IonRow>
+                                            <IonCol size="4"></IonCol>
+                                            <IonCol>
+                                                <h6>Atención Domiciliaria</h6>
+                                                <p className="profession">Profesional: Miguel Molina</p>
+                                                <div className="state"><p>Completado</p></div>
+                                            </IonCol>
+                                        </IonRow>
+                                    </IonCard>
+                                </IonCol>
+                                <IonCol size="12">
+                                    <IonCard className="content-date"><h2>16 <br /> NOV</h2></IonCard>
+                                    <IonCard className="content-result">
+                                        <IonRow>
+                                            <IonCol size="4"></IonCol>
+                                            <IonCol>
+                                                <h6>Atención Domiciliaria</h6>
+                                                <p className="profession">Profesional: Miguel Molina</p>
+                                                <div className="state"><p>Completado</p></div>
+                                            </IonCol>
+                                        </IonRow>
+                                    </IonCard>
+                                </IonCol>
+                                <IonCol size="12">
+                                    <IonCard className="content-date"><h2>16 <br /> NOV</h2></IonCard>
+                                    <IonCard className="content-result">
+                                        <IonRow>
+                                            <IonCol size="4"></IonCol>
+                                            <IonCol>
+                                                <h6>Atención Domiciliaria</h6>
+                                                <p className="profession">Profesional: Miguel Molina</p>
+                                                <div className="state"><p>Completado</p></div>
+                                            </IonCol>
+                                        </IonRow>
+                                    </IonCard>
+                                </IonCol>
 
 								{/* <IonCol size="6">
 										<IonCard routerLink="/services">
