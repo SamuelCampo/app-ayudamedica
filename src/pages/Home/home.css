@@ -6,7 +6,7 @@
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 100%;
     padding: 20px 5px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .img-icon-1{
@@ -33,8 +33,19 @@
     margin-right: auto;
 }
 
+.card{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.card:hover{
+    background-color: #D6ECFF;
+}
+
 .text-icon{
-    font-size: 10px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -44,6 +55,14 @@
 
 .icon-next{
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     right: 20px;
+    width: 70px;
+}
+
+.img-result{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }

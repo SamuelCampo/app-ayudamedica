@@ -14,6 +14,7 @@ import	icon1 from './../../Images/icon-1.png'
 import	icon2 from './../../Images/icon-2.png'
 import	icon3 from './../../Images/icon-3.png'
 import	next from './../../Images/siguiente.png'
+import	no_result from './../../Images/not_results.png'
 const Inicio = () => {
 	 
 	const [Name,SetName] = useState('')
@@ -70,7 +71,7 @@ const Inicio = () => {
                                 <IonCol size="4">
                                     <IonCard className="card">
                                         <img src={icon2} className="img-icon" alt="" />
-                                        <p className="text-icon">Teleorientación</p>
+                                        <p className="text-icon">Video</p>
                                     </IonCard>
                                 </IonCol>
                                 <IonCol size="4">
@@ -85,20 +86,10 @@ const Inicio = () => {
 					<div className="content">
 						<IonGrid>
 							<IonRow>
-							<IonCol size="6">
-								<IonCard className="card">
-									<img src={icon1} className="img-icon" alt="" />
-									<p className="text-icon">Particular</p>
-								</IonCard>
-							</IonCol>
-							<IonCol size="6">
-								<IonCard className="card">
-									<img src={icon2} className="img-icon" alt="" />
-									<p className="text-icon">Empresa</p>
-								</IonCard>
+							<IonCol size="12">
+                                <img src={no_result} className="img-result" alt="" />
 							</IonCol>
 
-								
 								{/* <IonCol size="6">
 										<IonCard routerLink="/services">
 											<IonCardContent className="text-center">
@@ -126,7 +117,7 @@ const Inicio = () => {
 							</IonRow>
 						</IonGrid>
 						<div className="icon-next">
-                            <img src={next} alt="" />
+                            <img src={WhatsappIcon}  alt="" />
 						</div>
 					</div>
 					</Container>
