@@ -1,0 +1,48 @@
+.mensaje{
+	width: 100%;
+    background-color: white;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+	padding-top:10px;
+	padding-left: 10px;
+}
+
+.icon-send{
+	position: absolute;
+	right: 10px;
+    top: 16px;
+    font-size: 19px;
+    width: 50px;
+    height: 30px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+	z-index: 2;
+}
+
+.content-message-container{
+	height: 80%;
+    overflow-y: scroll;
+}
+
+.content-message {
+    padding: 15px;
+    background: white;
+    max-width: 70%;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.content-message.content-message-right.animate__animated.animate__fadeInUp {
+    margin-left: 30%;
+    background-color: #b9e9ff;
+}
+
+ion-title.md.title-default {
+    text-align: center;
+}

@@ -1,8 +1,14 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+
+declare global {
+	interface Window{
+		sissoa: void;
+	}
+}
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15062668589",
+    "project_id": "push-cliente-ayudamedica",
+    "storage_bucket": "push-cliente-ayudamedica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15062668589:android:21f348dc5373f008dbefa4",
+        "android_client_info": {
+          "package_name": "com.ayudamedica.appcontact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15062668589-jmtvvhtmf6h7pv0rlu5j9k3dm8fd1l3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1ozWZh6VYD7s5d1yFdxBeHepMd0sVIvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15062668589-jmtvvhtmf6h7pv0rlu5j9k3dm8fd1l3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
