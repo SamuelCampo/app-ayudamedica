@@ -8,6 +8,7 @@ import Inicio from './pages/Inicio/Inicio'
 import Services from './pages/Services/Services'
 import Chats from './pages/Chats/Chats'
 import Video from './pages/Video/Video'
+import Panel from './pages/Home/home'
 import OneSignal from 'onesignal-cordova-plugin';
 
 /* Core CSS required for Ionic components to work properly */
@@ -60,6 +61,9 @@ const App = ()  => {
 				</Route>
 				<Route exact path="/video">
 					<Video />
+				</Route>
+				<Route exact path="/panel">
+					<Panel />
 				</Route>
 			</IonRouterOutlet>
 			</IonReactRouter>

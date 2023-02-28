@@ -3,14 +3,17 @@ import { IonContent, IonPage, IonIcon,IonCard, IonCardContent, IonGrid, IonRow, 
 import Container from './../../components/Container/Container'
 import global from './../../global'
 import { person } from 'ionicons/icons'
-import './Inicio.css'
+import './home.css'
 import  WhatsappIcon  from './../../Images/WhatsappIcon.png'
 import	Telemetry from './../../Images/telemedicina.jpg'
 import	VideoIcon from './../../Images/video-conference.png'
 import	Logo from './../../Images/logo.png'
-import	icon1 from './../../Images/usuarios.png'
-import	icon2 from './../../Images/buildings.png'
-import	icon3 from './../../Images/siguiente.png'
+import	icon_logo from './../../Images/LogoIcon.png'
+import	user from './../../Images/user.png'
+import	icon1 from './../../Images/icon-1.png'
+import	icon2 from './../../Images/icon-2.png'
+import	icon3 from './../../Images/icon-3.png'
+import	next from './../../Images/siguiente.png'
 const Inicio = () => {
 	 
 	const [Name,SetName] = useState('')
@@ -48,12 +51,35 @@ const Inicio = () => {
 				<IonContent fullscreen>
 					<Container>
 					<div className="headers">
-						<div>
-							<img src={Logo} className="img-logo" alt="" />
-						</div>
-						<div>
-							<p className="text-1">Cuéntanos que tipo de cliente eres</p>
-							<p className="text-2">Esto nos ayudara identificar más los servicios que te convienen</p>
+                        <IonRow>
+                            <IonCol size="6" className="text-left">
+									<img src={icon_logo} className="" alt="" />
+							</IonCol>
+                            <IonCol size="6" className="text-right">
+									<img src={user} className="img-icon-2" alt="" />
+							</IonCol>
+                        </IonRow>
+						<div className="content-service">
+							<IonRow>
+                                <IonCol size="4">
+                                    <IonCard className="card">
+                                        <img src={icon1} className="img-icon" alt="" />
+                                        <p className="text-icon">Atención domiciliaria</p>
+                                    </IonCard>
+                                </IonCol>
+                                <IonCol size="4">
+                                    <IonCard className="card">
+                                        <img src={icon2} className="img-icon" alt="" />
+                                        <p className="text-icon">Teleorientación</p>
+                                    </IonCard>
+                                </IonCol>
+                                <IonCol size="4">
+                                    <IonCard className="card">
+                                        <img src={icon3} className="img-icon" alt="" />
+                                        <p className="text-icon">Traslado</p>
+                                    </IonCard>
+                                </IonCol>
+                            </IonRow>
 						</div>
 					</div>
 					<div className="content">
@@ -100,7 +126,7 @@ const Inicio = () => {
 							</IonRow>
 						</IonGrid>
 						<div className="icon-next">
-							<img src={icon3} alt="" />
+                            <img src={next} alt="" />
 						</div>
 					</div>
 					</Container>

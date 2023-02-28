@@ -236,7 +236,7 @@ http://ionicframework.com/docs/theming/ */
 */
 
 ion-content{
-	--background: #f2f2f2 !important;
+	--background: white !important;
 }
 
 .text-center{

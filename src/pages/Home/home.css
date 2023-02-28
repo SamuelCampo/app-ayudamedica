@@ -1,34 +1,29 @@
 .headers{
-	background-image: url("/src/Images/background_init.png"); /* The image used */
+	background-image: url("/src/Images/background_home.png"); /* The image used */
     height: 300px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 5px;
     margin-bottom: 60px;
 }
 
-.img-logo{
-    display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+.img-icon-1{
+    width: 22%;
 }
 
-.text-1{
-    font-size: 29px;
-    font-weight: 600;
-    margin-top: 70px;
-    margin-left: 20px;
+.img-icon-2{
+    width: 20%;
+    margin-right: 10px;
 }
 
-.text-2{
-    margin-left: 20px; 
+.text-right{
+    text-align: right;
 }
 
-.content{
-    
+.text-left{
+    text-align: left;
 }
 
 .img-icon{
@@ -38,19 +33,13 @@
     margin-right: auto;
 }
 
-.card{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-}
-
-.card:hover{
-    background-color: #D6ECFF;
-}
-
 .text-icon{
-    font-size: 18px;
+    font-size: 10px;
     text-align: center;
+}
+
+.content-service{
+    margin-top: 20px;
 }
 
 .icon-next{
