@@ -1,0 +1,63 @@
+h1{
+	font-weight: 900 !important;
+	font-size: 2.5rem !important;
+}
+
+h1 > span{
+	font-size: 3rem;
+}
+
+.form-input > input{
+	background-color:#EFEFF4 !important;
+	border: none !important;
+	border-radius: 10px !important;
+	width:100% !important;
+	min-height: 50px !important;
+	margin-bottom: 15px;
+}
+
+button{
+	padding: 15px 25px;
+    width: 100%;
+    border-radius: 11px !important;
+    background: #4486FF;
+    font-weight: 600;
+    color: white;
+}
+
+.ion-padding > div{
+	margin-top: 120px !important;
+}
+
+ul{
+	list-style: none;
+	padding: 0 !important;
+}
+
+ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+ul li span{
+	margin-left: 5px;
+}
+
+ion-checkbox{
+	--border-radius: calc(var(--size) * 0.5);
+}
+
+.form-login{
+	margin-top: 40px;
+}
+
+.ion-header{
+	background: url(./../../Images/background_init.png) no-repeat center center;
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	padding: 25px 30px;
+}

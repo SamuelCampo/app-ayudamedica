@@ -1,0 +1,7 @@
+{
+  "name": "Ayudamedica App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

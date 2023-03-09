@@ -1,0 +1,11 @@
+.fields-input input{
+	background-color:#EFEFF4;
+	border: none;
+	border-radius: 10px;
+	width:100%;
+	min-height: 50px;
+}
+
+.fields-input input:hover{
+	outline: none;
+}
