@@ -24,7 +24,8 @@ const Video = () => {
 		let myHeaders = new Headers();
 		let token = localStorage.getItem('token')
 		formData.append('meetCode',params)
-		
+		myHeaders.append('Authorization','Bearer '+token)
+
 		var requestOptions = {
 			method: 'POST',
 			headers: myHeaders,

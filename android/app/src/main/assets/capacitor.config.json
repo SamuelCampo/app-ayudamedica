@@ -1,0 +1,6 @@
+{
+	"appId": "com.ayudamedica.appcontact",
+	"appName": "Ayudamedica App",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

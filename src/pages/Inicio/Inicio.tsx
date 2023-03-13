@@ -4,6 +4,7 @@ import Container from './../../components/Container/Container'
 import global from './../../global'
 import { person } from 'ionicons/icons'
 import './Inicio.css'
+
 import	Logo from './../../Images/logo.png'
 import	icon1 from './../../Images/usuarios.png'
 import	icon2 from './../../Images/buildings.png'
@@ -57,7 +58,9 @@ const Inicio = () => {
 						<IonGrid>
 							<IonRow>
 							<IonCol size="6">
+
 								<IonCard className="card" routerLink="/panel">
+
 									<img src={icon1} className="img-icon" alt="" />
 									<p className="text-icon">Particular</p>
 								</IonCard>

@@ -1,3 +1,4 @@
+
 import { IonContent, IonPage, IonText, IonInput, IonButton, IonCheckbox, IonItem, IonLabel,IonSpinner, IonRow, IonCol } from "@ionic/react"
 import React,{ useEffect, useState } from "react"
 import { useHistory } from "react-router-dom";
@@ -5,6 +6,7 @@ import "./Login.css"
 import { useForm, Controller } from "react-hook-form"
 import { LoginInterface } from './../../Interface/Login'
 import global from './../../global'
+
 import backgroundInit from './../../assets/img/backgroundInit.png'
 import	icon_logo from './../../Images/logo.png'
 import	user from './../../Images/user.png'
@@ -31,6 +33,7 @@ const Login: React.FC = () => {
 		setformStatus(true)
 		history.push('/home')
   }	
+
 
   useEffect(() => {
 	if(localStorage.getItem('name') !== null){
