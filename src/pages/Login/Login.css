@@ -51,4 +51,13 @@ ion-checkbox{
 
 .form-login{
 	margin-top: 40px;
+
+}
+.ion-header{
+	background: url(./../../Images/background_init.png) no-repeat center center;
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	padding: 25px 30px;
 }

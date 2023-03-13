@@ -1,2 +1,3 @@
-const GetUrl = 'http://127.0.0.1:8000/api/auth/'
+
+const GetUrl = 'http://192.168.1.42:8000/api/'
 export default {GetUrl}
