@@ -1,5 +1,5 @@
 import { IonContent, IonPage, IonText, IonInput, IonButton, IonCheckbox, IonItem, IonLabel,IonSpinner, IonRow, IonCol } from "@ionic/react"
-import React,{ useState } from "react"
+import React,{ useEffect, useState } from "react"
 import { useHistory } from "react-router-dom";
 import "./Login.css"
 import { useForm, Controller } from "react-hook-form"
@@ -31,6 +31,12 @@ const Login: React.FC = () => {
 		setformStatus(true)
 		history.push('/home')
   }	
+
+  useEffect(() => {
+	if(localStorage.getItem('name') !== null){
+		history.push('/home')
+	}
+  }, []);
 
   return (
     <IonPage>

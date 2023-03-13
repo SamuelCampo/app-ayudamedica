@@ -8,8 +8,7 @@ import Inicio from './pages/Inicio/Inicio'
 import Services from './pages/Services/Services'
 import Chats from './pages/Chats/Chats'
 import Video from './pages/Video/Video'
-import Panel from './pages/Home/home'
-import OneSignal from 'onesignal-cordova-plugin';
+import MyMap from './pages/Maps/Maps'
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -43,29 +42,29 @@ const App = ()  => {
 	return (
 		<IonApp>
 			<IonReactRouter>
-			<IonRouterOutlet>
-				<Route exact path="/">
-				<Redirect to="/Login" />
-				</Route>
-				<Route exact path="/Login">
-					<Login />
-				</Route>
-				<Route exact path="/home">
-					<Inicio />
-				</Route>
-				<Route exact path="/services">
-					<Services />
-				</Route>
-				<Route exact path="/chats/:id">
-					<Chats />
-				</Route>
-				<Route exact path="/video">
-					<Video />
-				</Route>
-				<Route exact path="/panel">
-					<Panel />
-				</Route>
-			</IonRouterOutlet>
+				<IonRouterOutlet>
+					<Route exact path="/">
+						<Redirect to="/Login" />
+					</Route>
+					<Route exact path="/Login">
+						<Login />
+					</Route>
+					<Route exact path="/home">
+						<Inicio />
+					</Route>
+					<Route exact path="/services">
+						<Services />
+					</Route>
+					<Route exact path="/chats/:id">
+						<Chats />
+					</Route>
+					<Route exact path="/video">
+						<Video />
+					</Route>
+					<Route exact path="/maps">
+						<MyMap />
+					</Route>
+				</IonRouterOutlet>
 			</IonReactRouter>
 		</IonApp>
 	)
